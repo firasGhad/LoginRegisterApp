@@ -1,0 +1,93 @@
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.MuiOutlinedInput-colorSecondary.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #80bdff !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+ 
+}
+
+.MuiAutocomplete-noOptions {
+  padding: 14px 16px !important;
+  color: red !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.MuiFormControl-fullWidth {
+  width: 100% !important;
+
+}
+.MuiAutocomplete-endAdornment {
+  visibility: hidden !important;
+}
+.MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+  padding-right: 10px !important;
+}
+
+.swal-text {
+  text-align: center;
+  color: black;
+}
+
+.swal-footer {
+  text-align: center !important;
+}
+#container {
+  padding: 0;
+}
+
+#Alleventsbtn {
+  margin-top: 40%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size:  x-large;
+  font-weight: bold;
+  height: 200px;
+  border-radius: 500px;
+  background-color: #0f4c81;
+  /* background-image: url('/public/event.jpg'); */
+}
+
+#eventWithoutBus {
+  margin-top: 40%;
+  margin-right: 250px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size:  xx-large;
+  font-weight: bold;
+  height: 200px;
+  border-radius: 500px;
+  background-color: #0f4c81;
+  /* background-image: url('/public/event.jpg'); */
+}
+
+#Createeventbtn {
+  margin-top: 40%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  font-weight: bold;
+  height: 200px;
+  border-radius: 500px;
+  background-color: white;
+  color: #0f4c81;
+  border-color: #0f4c81;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Paris"
+}
+
+.canvasjs-chart-canvas{
+  margin-left: 50px!important;
+  margin-right: 50px!important;
+  margin-top: 55px !important;
+  margin-bottom: 50px!important;
+  
+}
+
+#canvasjs-react-chart-container-0{
+  width: 600px !important;
+  height: px !important;
+}
